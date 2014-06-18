@@ -53,9 +53,8 @@ Here is a simple HTML Modal MarkUp
 				<button class="close" type="button" data-dismiss="modal">×</button>
 					<h4 class="modal-title">My Title in a Modal Window</h4>
 			</div>
-			<div class="modal-body">...</div>
-			<div class="modal-footer"><button class="btn btn-default" type="button" data-dismiss="modal">Close</button>
-				<button class="btn btn-primary" type="button">Save changes</button></div>
+			<div class="modal-body">This is the body of a modal...</div>
+			<div class="modal-footer">This is the footer of a modal...</div>
 			</div><!-- /.modal-content -->
 	</div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
