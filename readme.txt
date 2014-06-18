@@ -41,7 +41,7 @@ There is also further usage information here: http://coolestguidesontheplanet.co
 There is no WP-Admin interface, mark up needs to be directly applied to post/page or widget area.
 
 Here is a simple HTML Modal MarkUp
-<pre>
+<code>
 <!-- Button trigger modal -->
 <a class="btn btn-primary btn-lg" href="#myModal1" data-toggle="modal">Launch demo modal</a>
 
@@ -59,7 +59,7 @@ Here is a simple HTML Modal MarkUp
 			</div><!-- /.modal-content -->
 	</div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
-</pre>
+</code>
 
 == Changelog ==
 
