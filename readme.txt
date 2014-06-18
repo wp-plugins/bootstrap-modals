@@ -40,6 +40,27 @@ There is also further usage information here: http://coolestguidesontheplanet.co
 
 There is no WP-Admin interface, mark up needs to be directly applied to post/page or widget area.
 
+Here is a simple HTML Modal MarkUp
+<pre>
+<!-- Button trigger modal -->
+<a class="btn btn-primary btn-lg" href="#myModal1" data-toggle="modal">Launch demo modal</a>
+
+<!-- Modal -->
+<div id="myModal1" class="modal fade" tabindex="-1">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button class="close" type="button" data-dismiss="modal">×</button>
+					<h4 class="modal-title">My Title in a Modal Window</h4>
+			</div>
+			<div class="modal-body">...</div>
+			<div class="modal-footer"><button class="btn btn-default" type="button" data-dismiss="modal">Close</button>
+				<button class="btn btn-primary" type="button">Save changes</button></div>
+			</div><!-- /.modal-content -->
+	</div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+</pre>
+
 == Changelog ==
 
 = 1.0.0 * Initial release.
