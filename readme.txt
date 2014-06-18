@@ -26,6 +26,8 @@ It adds just the Bootstrap Javascript Plugin for Modals and associated CSS.
 
 This does not bring in any other Boostrap javascript or CSS functionality.
 
+There is sample HTML mark up code in the readme.txt for a selector and modal target element.
+
 == Installation ==
 
 This section describes how to install the plugin:
