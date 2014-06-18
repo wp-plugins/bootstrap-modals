@@ -1,4 +1,21 @@
-Read Me
+=== Plugin Name ===
+
+Contributors: neilgee
+Donate link: http://coolestguidesontheplanet.com/
+Tags: modals, pop ups, windows, bootstrap
+Requires at least: 3.8
+Tested up to: 3.9.1
+Stable tag: 4.3
+Plugin Name: Bootstrap Modals
+Plugin URI: http://coolestguidesontheplanet.com/use-bootstrap-modals-wordpress-themes/
+Description: Using Bootstrap Modals in WordPress
+Author: Neil Gee
+Version:1
+Author URI:http://coolestguidesontheplanet.com
+License:           GPL-2.0+
+License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
+
+This plugin adds Bootstrap v3.1.1 Modal functionality to WordPress.
 
 
 == Description ==
