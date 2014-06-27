@@ -10,17 +10,17 @@ Plugin Name: Bootstrap Modals
 Plugin URI: http://coolestguidesontheplanet.com/use-bootstrap-modals-wordpress-themes/
 Description: Using Bootstrap Modals in WordPress
 Author: Neil Gee
-Version: 1.0.0
+Version: 1.0.1
 Author URI:http://coolestguidesontheplanet.com
 License:           GPL-2.0+
 License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
 
-This plugin adds Bootstrap v3.1.1 Modal functionality to WordPress. All you need to do is add the Modal HTML mark up code, a copy of this is in the readme.txt
+This plugin adds Bootstrap v3.2.0 Modal functionality to WordPress. All you need to do is add the Modal HTML mark up code, a copy of this is in the readme.txt
 
 
 == Description ==
 
-This plugin adds Bootstrap v3.1.1 Modal functionality to WordPress.
+This plugin adds Bootstrap v3.2.0 Modal functionality to WordPress.
 
 It adds just the Bootstrap Javascript Plugin for Modals and associated CSS.  
 
@@ -65,3 +65,5 @@ Here is a simple HTML Modal MarkUp
 == Changelog ==
 
 = 1.0.0 * Initial release.
+
+= 1.0.1  - 27th June 2014 - Updated with Bootstrap 3.2.0 - https://github.com/twbs/bootstrap/releases/tag/v3.2.0
