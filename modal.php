@@ -4,7 +4,7 @@ Plugin Name: Bootstrap Modals
 Plugin URI: http://coolestguidesontheplanet.com/use-bootstrap-modals-wordpress-themes/
 Description: Using Bootstrap Modals in WordPress
 Author: Neil Gee
-Version:1
+Version: 1.0.0
 Author URI:http://coolestguidesontheplanet.com
 License:           GPL-2.0+
 License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
