@@ -36,6 +36,7 @@ This section describes how to install the plugin:
 2. Activate the plugin through the 'Plugins' menu in WordPress
 
 == Usage ==
+
 Use either the Bootstrap API markup or Javascript to trigger the modal windows, this can be found here: http://getbootstrap.com/javascript/#modals
 
 There is also further usage information here: http://coolestguidesontheplanet.com/bootstrap/modal.php
