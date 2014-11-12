@@ -15,12 +15,12 @@ Author URI:http://coolestguidesontheplanet.com
 License:           GPL-2.0+
 License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
 
-This plugin adds Bootstrap v3.2.0 Modal functionality to WordPress. All you need to do is add the Modal HTML mark up code, a copy of this is in the readme.txt
+This plugin adds Bootstrap v3.3.1 Modal functionality to WordPress. All you need to do is add the Modal HTML mark up code, a copy of this is in the readme.txt
 
 
 == Description ==
 
-This plugin adds Bootstrap v3.2.0 Modal functionality to WordPress.
+This plugin adds Bootstrap v3.3.1 Modal functionality to WordPress.
 
 It adds just the Bootstrap Javascript Plugin for Modals and associated CSS.  
 
