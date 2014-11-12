@@ -5,7 +5,7 @@ Donate link: http://coolestguidesontheplanet.com/
 Tags: modals, pop ups, windows, bootstrap
 Requires at least: 3.8
 Tested up to: 4.0.0
-Stable tag: 4.5
+Stable tag: 1.0.2
 Plugin Name: Bootstrap Modals
 Plugin URI: http://coolestguidesontheplanet.com/use-bootstrap-modals-wordpress-themes/
 Description: Using Bootstrap Modals in WordPress
