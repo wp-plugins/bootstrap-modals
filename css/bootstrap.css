@@ -1,63 +1,60 @@
 /*!
- * Bootstrap v3.3.2 (http://getbootstrap.com)
- * Copyright 2011-2014 Twitter, Inc.
+ * Bootstrap v3.3.4 (http://getbootstrap.com)
+ * Copyright 2011-2015 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 
-.close {
+/*NG ADDON*/
+.modal-header .close {
   float: right;
-  font-size: 21px;
-  font-weight: bold;
+  font-size: 20px;
   line-height: 1;
   color: #000;
   text-shadow: 0 1px 0 #fff;
   filter: alpha(opacity=20);
   opacity: 1;
 }
-.close:hover,
-.close:focus {
+.modal-header .close:hover,
+.modal-header .close:focus {
   color: #000;
   text-decoration: none;
   cursor: pointer;
   filter: alpha(opacity=50);
   opacity: .5;
 }
-button.close {
-  -webkit-appearance: none;
-  padding: 0;
-  cursor: pointer;
-  background: transparent;
-  border: 0;
-}
+
+/*end of NG ADDON*/
+
+
 .modal-open {
   overflow: hidden;
 }
 .modal {
+  display: none;
+  overflow: hidden;
   position: fixed;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
-  z-index: 1040;
-  display: none;
-  overflow: hidden;
+  z-index: 1050;
   -webkit-overflow-scrolling: touch;
   outline: 0;
 }
 .modal.fade .modal-dialog {
-  -webkit-transition: -webkit-transform .3s ease-out;
-       -o-transition:      -o-transform .3s ease-out;
-          transition:         transform .3s ease-out;
   -webkit-transform: translate(0, -25%);
-      -ms-transform: translate(0, -25%);
-       -o-transform: translate(0, -25%);
-          transform: translate(0, -25%);
+  -ms-transform: translate(0, -25%);
+  -o-transform: translate(0, -25%);
+  transform: translate(0, -25%);
+  -webkit-transition: -webkit-transform 0.3s ease-out;
+  -o-transition: -o-transform 0.3s ease-out;
+  transition: transform 0.3s ease-out;
 }
 .modal.in .modal-dialog {
   -webkit-transform: translate(0, 0);
-      -ms-transform: translate(0, 0);
-       -o-transform: translate(0, 0);
-          transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  -o-transform: translate(0, 0);
+  transform: translate(0, 0);
 }
 .modal-open .modal {
   overflow-x: hidden;
@@ -70,35 +67,37 @@ button.close {
 }
 .modal-content {
   position: relative;
-  background-color: #fff;
+  background-color: #ffffff;
+  border: 1px solid #999999;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
   -webkit-background-clip: padding-box;
           background-clip: padding-box;
-  border: 1px solid #999;
-  border: 1px solid rgba(0, 0, 0, .2);
-  border-radius: 6px;
   outline: 0;
-  -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
-          box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
 }
 .modal-backdrop {
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 0;
+  bottom: 0;
   left: 0;
-  background-color: #000;
+  z-index: 1040;
+  background-color: #000000;
 }
 .modal-backdrop.fade {
-  filter: alpha(opacity=0);
   opacity: 0;
+  filter: alpha(opacity=0);
 }
 .modal-backdrop.in {
+  opacity: 0.5;
   filter: alpha(opacity=50);
-  opacity: .5;
 }
 .modal-header {
-  min-height: 16.42857143px;
   padding: 15px;
   border-bottom: 1px solid #e5e5e5;
+  min-height: 16.42857143px;
 }
 .modal-header .close {
   margin-top: -2px;
@@ -117,8 +116,8 @@ button.close {
   border-top: 1px solid #e5e5e5;
 }
 .modal-footer .btn + .btn {
-  margin-bottom: 0;
   margin-left: 5px;
+  margin-bottom: 0;
 }
 .modal-footer .btn-group .btn + .btn {
   margin-left: -1px;
@@ -133,22 +132,14 @@ button.close {
   height: 50px;
   overflow: scroll;
 }
-.modal-footer:before,
-.modal-footer:after {
-  display: table;
-  content: " ";
-}
-.modal-footer:after {
-  clear: both;
-}
 @media (min-width: 768px) {
   .modal-dialog {
     width: 600px;
     margin: 30px auto;
   }
   .modal-content {
-    -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
-            box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+    -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
   }
   .modal-sm {
     width: 300px;

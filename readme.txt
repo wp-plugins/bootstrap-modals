@@ -4,23 +4,23 @@ Contributors: neilgee
 Donate link: http://coolestguidesontheplanet.com/
 Tags: modals, pop ups, windows, bootstrap
 Requires at least: 3.8
-Tested up to: 4.1.0
-Stable tag: 1.1.0
+Tested up to: 4.1.1
+Stable tag: 1.2.0
 Plugin Name: Bootstrap Modals
 Plugin URI: http://coolestguidesontheplanet.com/use-bootstrap-modals-wordpress-themes/
 Description: Using Bootstrap Modals in WordPress
 Author: Neil Gee
-Version: 1.1.0
-Author URI:http://coolestguidesontheplanet.com
+Version: 1.2.0
+Author URI:http://wpbeaches.com
 License:           GPL-2.0+
 License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
 
-This plugin adds Bootstrap v3.3.2 Modal functionality to WordPress. All you need to do is add the Modal HTML mark up code, a copy of this is in the readme.txt
+This plugin adds Bootstrap v3.3.4 Modal functionality to WordPress. All you need to do is add the Modal HTML mark up code, a copy of this is in the readme.txt
 
 
 == Description ==
 
-This plugin adds Bootstrap v3.3.2 Modal functionality to WordPress.
+This plugin adds Bootstrap v3.3.3 Modal functionality to WordPress.
 
 It adds just the Bootstrap Javascript Plugin for Modals and associated CSS.  
 
@@ -74,3 +74,5 @@ Since version 1.0.2 extra CSS is included to set the close button to a state sim
 = 1.0.2  - 13th November 2014 - Updated with Bootstrap 3.3.1 - https://github.com/twbs/bootstrap/releases/tag/v3.3.1 - Included extra CSS for .close class used on Modal close button.
 
 = 1.1.0  - 22nd January 2015 - Updated with Bootstrap 3.3.2 - no functional changes for modals.
+
+= 1.2.0 - 19th April 2015 - Updated with Bootstrap 3.3.4 - Fixes for a few significant bugs in the Modal plugin..
