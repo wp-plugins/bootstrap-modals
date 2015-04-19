@@ -15,7 +15,7 @@ Author URI:http://wpbeaches.com
 License:           GPL-2.0+
 License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
 
-This plugin adds Bootstrap v3.3.4 Modal functionality to WordPress. All you need to do is add the Modal HTML mark up code, a copy of this is in the readme.txt
+This plugin adds Bootstrap v3.3.4 Modal functionality to WordPress. All you need to do is add the Modal HTML mark up code.
 
 
 == Description ==
