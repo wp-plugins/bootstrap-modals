@@ -20,7 +20,7 @@ This plugin adds Bootstrap v3.3.4 Modal functionality to WordPress. All you need
 
 == Description ==
 
-This plugin adds Bootstrap v3.3.3 Modal functionality to WordPress.
+This plugin adds Bootstrap v3.3.4 Modal functionality to WordPress.
 
 It adds just the Bootstrap Javascript Plugin for Modals and associated CSS.  
 
