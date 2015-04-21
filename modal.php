@@ -5,7 +5,7 @@ Plugin URI: http://coolestguidesontheplanet.com/use-bootstrap-modals-wordpress-t
 Description: Using Bootstrap Modals in WordPress
 Author: Neil Gee
 Version: 1.2.0
-Author URI:http://coolestguidesontheplanet.com
+Author URI:http://wpbeaches.com
 License:           GPL-2.0+
 License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
 */
